@@ -1,0 +1,40 @@
+TimeStamp,MsgType,OrderID,Side,Size,Price,TradingStatus,Status,FarPrice,TotalExecutedQty,TradeID,TradeType,AuctionType,ExecutedSize,OldPrice,OldSize,StatisticsType,StatisticsPrice,StatisticsSize,CumVolume,Turnover,Message Interpretation
+42:00.7,AddOrderIncremental,9.91312E+16,S,100,60.6,,,,,,,,,,,,,,,,Add Limit SELL order 100@60.6 (O1)
+42:22.9,AddOrderIncremental,9.91312E+16,B,100,59.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@59.5 (O2)
+42:46.3,AddOrderIncremental,9.91312E+16,B,100,58.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@58.5 (O3)
+43:27.4,TradeSummary,,S,,,,,60.5,50,,,,,,,,,,,,Trade summary : Trade executed of total Qty 50 @60.5 SELL side
+43:27.4,Trade,,,,60.5,,,,,3.87E+14,0,0,50,,,,,,,,Trade summary : Trade executed of Qty 50 @60.5
+43:27.4,DeleteOrder,9.91312E+16,S,,,,,,,,,,,60.5,50,,,,,,Deleted the SELL order (O7)of Qty 50@60.5
+43:27.4,Statistics,,,,,,,,,,,,,,,,,,50,3025,Statistics update
+43:27.4,StatisticsUpdate,,,,,,,,,,,0,,,,6,60.5,0,,,Trade High All Trades at statistic price 60.5
+43:27.4,StatisticsUpdate,,,,,,,,,,,0,,,,4,60.5,0,,,Trade High On-Book
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+18:16.5,AddOrderIncremental,99131196339912742,B,25,156.2,,,,,,,,,,,,,,,,Add Limit BUY order 25@156.20
+18:19.5,AddOrderIncremental,99131196339912743,B,25,156.6,,,,,,,,,,,,,,,,Add Limit BUY order 100@59.5 (O2)
+18:24.5,AddOrderIncremental,99131196339912744,S,100,157,,,,,,,,,,,,,,,,Add Limit SELL order 100@60.6 (O1)
+18:26.7,AddOrderIncremental,99131196339912745,S,100,157.4,,,,,,,,,,,,,,,,Trade summary : Trade executed of total Qty 50 @60.5 SELL side
+18:32.1,TradeSummary,,S,,,,,157,25,,,,,,,,,,,,Trade summary : Trade executed of Qty 50 @60.5
+18:32.1,TradeSummary,,S,,,,,157,25,,,,,,,,,,,,Deleted the SELL order (O7)of Qty 50@60.5
+18:32.1,Trade,,,,157,,,,,,,,25,,,,,,,,Statistics update
+18:32.1,Trade,,,,157,,,,,,,,25,,,,,,,,Trade High All Trades at statistic price 60.5
+18:32.1,ModifyOrder,99131196339912744,S,75,157,,,,,,,,,,,,,,,,Trade High On-Book
+18:32.1,ModifyOrder,,S,75,157,,,,,,,,,157,100,,,,,,
+18:32.1,Statistics,,,,,,,,,,,,,,,,,,175,27445,
+18:43.4,TradeSummary,,B,,,,,156.6,10,,,,,,,,,,,,
+18:43.4,TradeSummary,,B,,,,,156.6,10,,,,,,,,,,,,
+18:43.4,Trade,,,,156.6,,,,,,,,,,,,,,,,
+18:43.4,Trade,,,,156.6,,,,,,,,,,,,,,,,
+18:43.4,ModifyOrder,99131196339912743,B,15,156.6,,,,,,,,,,,,,,,,
+18:43.4,Statistics,,,,,,,,,,,,,,,,,,185,29011,
+18:47.4,AddOrderIncremental,99131196339912748,B,10,156,,,,,,,,,,,,,,,,
+19:12.6,DeleteOrder,,B,,,,,,,,,,,156.6,15,,,,,,
+19:26.9,ModifyOrder,,S,75,156.99,,,,,,,,,157,75,,,,,,

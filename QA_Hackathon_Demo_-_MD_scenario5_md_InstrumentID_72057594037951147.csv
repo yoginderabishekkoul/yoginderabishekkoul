@@ -1,0 +1,34 @@
+TimeStamp,MsgType,OrderID,Side,Size,Price,TradingStatus,Status,FarPrice,TotalExecutedQty,TradeID,TradeType,AuctionType,ExecutedSize,OldPrice,OldSize,StatisticsType,StatisticsPrice,StatisticsSize,CumVolume,Turnover,Message Interpretation
+42:00.7,AddOrderIncremental,9.91312E+16,S,100,60.6,,,,,,,,,,,,,,,,Add Limit SELL order 100@60.6 (O1)
+42:22.9,AddOrderIncremental,9.91312E+16,B,100,59.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@59.5 (O2)
+42:46.3,AddOrderIncremental,9.91312E+16,B,100,58.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@58.5 (O3)
+43:27.4,TradeSummary,,S,,,,,60.5,50,,,,,,,,,,,,Trade summary : Trade executed of total Qty 50 @60.5 SELL side
+43:27.4,Trade,,,,60.5,,,,,3.87E+14,0,0,50,,,,,,,,Trade summary : Trade executed of Qty 50 @60.5
+43:27.4,DeleteOrder,9.91312E+16,S,,,,,,,,,,,60.5,50,,,,,,Deleted the SELL order (O7)of Qty 50@60.5
+43:27.4,Statistics,,,,,,,,,,,,,,,,,,50,3025,Statistics update
+43:27.4,StatisticsUpdate,,,,,,,,,,,0,,,,6,60.5,0,,,Trade High All Trades at statistic price 60.5
+43:27.4,StatisticsUpdate,,,,,,,,,,,0,,,,4,60.5,0,,,Trade High On-Book
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+50:04.3,SymbolStatus,,,,,,,,,,,,,,,,,,,,
+53:08.2,AddOrderIncremental,99131196339912713,B,100,157,,,,,,,,,,,,,,,,Add Limit BUY order 100@157
+53:14.7,AddOrderIncremental,99131196339912714,S,100,157,,,,,,,,,,,,,,,,Add Limit SELL order 100@157
+53:14.7,StatisticsUpdate,,,,,,,,,,,,,,,1,157,100,,,Indicative Auction Uncrossing Data Order  100@157
+00:29.5,Trade,,,,157,,,,,,,,100,,,,,,,,Total executed quantity157@100
+00:29.5,DeleteOrder,99131196339912713,B,,,,,,,,,,,157,100,,,,,,Deleted the Buy order (O7)of Qty 157@100
+00:29.5,DeleteOrder,99131196339912714,S,,,,,,,,,,,,,,,,,,
+00:29.5,Trade,,,,157,,,,,,,,100,,,,,,,,Total executed quantity157@100
+00:29.5,SymbolStatus,,,,,,,,,,,,,,,,,,,,
+00:29.5,StatisticsUpdate,,,,,,,,,,,,,,,2,157,0,,,Official Opening Price@157
+00:29.5,Statistics,,,,,,,,,,,,,,,,,,100,15700,Turnover of all trades for the day(15700)@100
+00:29.5,StatisticsUpdate,,,,,,,,,,,,,,,6,157,0,,,Trade High All Trades@157
+00:29.5,StatisticsUpdate,,,,,,,,,,,,,,,4,157,0,,,Trade High On-Book@157
+00:29.5,StatisticsUpdate,,,,,,,,,,,,,,,7,157,0,,,Trade Low All Trades@157

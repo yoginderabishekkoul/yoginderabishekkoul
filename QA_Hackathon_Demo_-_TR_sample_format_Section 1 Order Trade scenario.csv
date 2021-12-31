@@ -1,0 +1,67 @@
+TimeStamp,Message Direction (IN/OUT),MessageType,ClOrdID,OrigClOrdID,OrderID,OrderType,Validity,Side,OrderQty,DisplayQty,OrderStatus,LimitPrice,ExecType,ExecutedQty,LeavesQty,ExecutedPrice,Message Interpretation
+09:55.0,OUT,D,A15ah14kqgndt,,,2,0,1,100,100,,157,,,,,Limit BUY DAY Order 100 @ 157
+09:55.9,IN,8,A15ah14kqgndt,,007FfbPBqIXt,,,1,,100,0,,0,0,100,0,Order Ack
+10:02.8,OUT,G,M15ah14kqgndu,A15ah14kqgndt,007FfbPBqIXt,,0,1,150,150,,157,,,,,Modify Qty 150
+10:08.8,IN,8,M15ah14kqgndu,,007FfbPBqIXt,,0,1,,100,1,157,F,50,100,157,Partial fill BUY Order
+,,,,,,,,,,,,,,,,,
+08:15.8,OUT,D,A15ah14kqgndq,,,2,0,1,200,200,,157,,,,,Limit BUY DAY Order 200 @ 157
+08:15.8,IN,8,A15ah14kqgndq,,007FfbPBqIXf,,,1,,200,0,,0,0,200,0,Order Ack
+08:26.1,OUT,D,A15ah14kqgndr,,,2,4,1,300,300,,157,,,,,Limit BUY DAY Order 300 @ 157
+08:26.1,IN,8,A15ah14kqgndr,,007FfbPBqIXg,,,1,,0,6,,C,0,0,0,Order Expired
+,,,,,,,,,,,,,,,,,
+09:54.8,OUT,D,A15ah14kqgndt,,,2,0,1,100,100,,157,,,,,Limit BUY DAY Order 100 @ 157
+09:55.0,IN,8,A15ah14kqgndt,,007FfbPBqIXt,,,1,,100,0,,,0,100,0,Order Ack
+10:01.8,OUT,G,M15ah14kqgndu,A15ah14kqgndt,007FfbPBqIXt,,0,1,150,150,,157,,,,,Modify Qty 150
+10:01.8,IN,8,M15ah14kqgndu,,007FfbPBqIXt,,,1,,150,0,,5,0,150,0,Replace Qty150
+10:07.7,OUT,D,A15ah14kqgndv,,,2,0,2,50,50,,157,,,,,SELL 50@157
+10:07.8,IN,8,A15ah14kqgndv,,007FfbPBqIXu,,,2,,,2,,F,50,0,157,SELL 50@157 Executed
+10:07.8,IN,8,M15ah14kqgndu,,007FfbPBqIXt,,,1,,100,1,,F,50,100,157,SELL 50@157 Executed Left 100
+10:12.3,IN,8,D15ah14kqgndw,,007FfbPBqIXt,,,1,,0,4,,4,0,0,0,Order Cancelled
+,,,,,,,,,,,,,,,,,
+10:34.8,OUT,D,A15ah14kqgndx,,,2,0,1,200,200,,157,,,,,LIMIT BUY ORDER 200@157
+10:34.8,IN,8,A15ah14kqgndx,,007FfbPBqIXv,,,1,,200,0,,0,0,200,0,ACK New Order
+10:44.0,OUT,G,M15ah14kqgndy,A15ah14kqgndx,007FfbPBqIXv,,0,1,200,200,,157.2,,,,,Modify LimitPrice@157.2
+10:44.0,IN,8,M15ah14kqgndy,,007FfbPBqIXv,,,1,,200,0,,5,0,200,0,Ack Replace New order
+10:53.6,OUT,D,A15ah14kqgndz,,,1,0,2,150,150,,0,,,,,Market Sell Order 150@0
+10:53.6,IN,8,A15ah14kqgndz,,007FfbPBqIXw,,,2,,0,2,,F,150,0,157.2,Sell Filled Trade Order150@157.2
+10:53.6,IN,8,M15ah14kqgndy,,007FfbPBqIXv,,,1,,50,1,,F,150,50,157.2,Order Executed Buy order 150@157.2 Ack
+11:02.2,OUT,G,M15ah14kqgne0,,M15ah14kqgndy,,0,1,175,25,,,,,,157.2,Replace Buy Order175@157.2
+11:02.2,IN,8,M15ah14kqgne0,,007FfbPBqIXv,,,1,,25,1,,5,0,25,0,Ack Buy Replace partially Filled 25 left
+11:06.4,OUT,F,D15ah14kqgne1,M15ah14kqgne0 ,007FfbPBqIXv,,,,,,,,,,,,Request for Previous Order cancelled M15ah14kqgne0  
+11:06.4,IN,8,D15ah14kqgne1,,007FfbPBqIXv,,,1,,,4,,4,0,0,0,Ack cancelled order
+,,,,,,,,,,,,,,,,,
+14:33.1,OUT,D,A15ah14kqgneh,,,2,0,1,100,100,,157,,,,,Limit BUY Order100@157
+14:33.1,IN,8,A15ah14kqgneh,,007FfbPBqIY2,,,1,,100,0,,,0,100,0,Order Accepted
+14:42.2,OUT,D,A15ah14kqgnei,,,2,0,1,100,100,,158,,,,,Limit BUY Order100@158
+14:42.3,IN,8,A15ah14kqgnei,,007FfbPBqIY3,,,1,,100,0,,,0,100,0,Order Accepted
+14:55.0,OUT,D,A15ah14kqgnej,,,2,0,2,200,200,,158.5,,,,,Limit Sell Order200@158.5
+14:55.0,IN,8,A15ah14kqgnej,,007FfbPBqIY4,,,2,,200,0,,0,0,200,0,Order Accepted
+15:04.0,OUT,G,M15ah14kqgnek,A15ah14kqgnej,007FfbPBqIY4,,0,2,200,200,,158,,,,,Replace Order200@158
+15:04.0,IN,8,M15ah14kqgnek,,007FfbPBqIY4,,,2,,200,0,,5,0,200,0,Order replace request Accepted
+15:04.1,IN,8,M15ah14kqgnek,,007FfbPBqIY4,,,2,,100,1,,F,100,100,158,Order Executed@158
+15:04.1,IN,8,A15ah14kqgnei,,007FfbPBqIY3,,,1,,0,2,,F,100,0,158,Order Executed@158
+15:14.7,OUT,G,M15ah14kqgnel,M15ah14kqgnek,007FfbPBqIY4,,0,2,200,100,,157,,,,,Replace Sell Order200@157
+15:14.8,IN,8,M15ah14kqgnel,,007FfbPBqIY4,,,2,,100,1,,5,0,100,0,Order Replaced@157
+15:14.8,IN,8,M15ah14kqgnel,,007FfbPBqIY4,,,2,,0,2,,F,100,0,157,Order Executed
+15:14.8,IN,8,A15ah14kqgneh,,007FfbPBqIY2,,,1,,0,2,,,100,0,157,Order Executed
+,,,,,,,,,,,,,,,,,
+15:52.2,OUT,D,A15ah14kqgnem,,,2,0,1,5000,500,,158,,,,,Limit Buy Order5000@158
+15:52.2,IN,8,A15ah14kqgnem,,007FfbPBqIY5,,,1,,500,0,,0,0,5000,0,OrderAccepted
+16:05.5,OUT,D,A15ah14kqgnen,,,1,0,2,700,700,,0,,,,,Market Sell Order700@0
+16:05.5,IN,8,A15ah14kqgnen,,007FfbPBqIY6,,,2,,200,1,,F,500,200,158,Order Executed
+16:05.5,IN,8,A15ah14kqgnem,,007FfbPBqIY5,,,1,,0,1,,F,500,4500,158,Order Executed
+16:05.5,IN,8,A15ah14kqgnen,,007FfbPBqIY6,,,2,,0,2,,F,200,0,158,Order Executed
+16:05.5,IN,8,A15ah14kqgnem,,007FfbPBqIY5,,,1,,0,1,,F,200,4300,158,Order Executed
+16:05.5,IN,8,A15ah14kqgnem,,007FfbPBqIY5,,,1,,500,1,,D,0,4300,0,Order Cancelled
+,,,,,,,,,,,,,,,,,
+30:07.6,OUT,D,A15b02gofavin,,,2,0,2,100,100,,157,,,,,Limit Sell Order100@157
+30:07.6,IN,8,A15b02gofavin,,007FfbPBqIYW,,,2,,100,0,,0,0,100,0,Order Ack
+,,,,,,,,,,,,,,,,,
+12:05.7,OUT,D,A15b0t2cwxkl3,,,2,0,1,100,100,,157,,,,,Limit BUY Order100@157
+12:05.7,IN,8,A15b0t2cwxkl3,,007FfbPBqIbZ,,,1,,100,0,,0,0,100,0,Order Ack
+12:24.4,OUT,D,A15b0t2cwxkl4,,,2,4,2,200,200,,157,,,,,Limit SELL Order200@157
+12:24.4,IN,8,A15b0t2cwxkl4,,007FfbPBqIba,,,2,,,6,,C,0,0,0,Order Cancellled
+12:36.7,OUT,D,A15b0t2cwxkl5,,,2,,2,175,175,,157,,,,,LIMIT SELL Order175@157
+12:36.7,IN,8,A15b0t2cwxkl5,,007FfbPBqIbb,,,2,,75,1,,F,100,75,157,OrderExecuted@100 
+12:36.9,IN,8,A15b0t2cwxkl3,,007FfbPBqIbZ,,,1,,0,2,,F,100,0,157,OrderExecuted@100 
+12:36.9,IN,8,A15b0t2cwxkl5,,007FfbPBqIbb,,,2,,0,6,,C,0,0,0,Order Expired

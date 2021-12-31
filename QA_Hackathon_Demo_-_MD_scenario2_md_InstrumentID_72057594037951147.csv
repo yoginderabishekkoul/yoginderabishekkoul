@@ -1,0 +1,33 @@
+TimeStamp,MsgType,OrderID,Side,Size,Price,TradingStatus,Status,FarPrice,TotalExecutedQty,TradeID,TradeType,AuctionType,ExecutedSize,OldPrice,OldSize,StatisticsType,StatisticsPrice,StatisticsSize,CumVolume,Turnover,Message Interpretation
+42:00.7,AddOrderIncremental,9.91312E+16,S,100,60.6,,,,,,,,,,,,,,,,Add Limit SELL order 100@60.6 (O1)
+42:22.9,AddOrderIncremental,9.91312E+16,B,100,59.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@59.5 (O2)
+42:46.3,AddOrderIncremental,9.91312E+16,B,100,58.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@58.5 (O3)
+43:27.4,TradeSummary,,S,,,,,60.5,50,,,,,,,,,,,,Trade summary : Trade executed of total Qty 50 @60.5 SELL side
+43:27.4,Trade,,,,60.5,,,,,3.87E+14,0,0,50,,,,,,,,Trade summary : Trade executed of Qty 50 @60.5
+43:27.4,DeleteOrder,9.91312E+16,S,,,,,,,,,,,60.5,50,,,,,,Deleted the SELL order (O7)of Qty 50@60.5
+43:27.4,Statistics,,,,,,,,,,,,,,,,,,50,3025,Statistics update
+43:27.4,StatisticsUpdate,,,,,,,,,,,0,,,,6,60.5,0,,,Trade High All Trades at statistic price 60.5
+43:27.4,StatisticsUpdate,,,,,,,,,,,0,,,,4,60.5,0,,,Trade High On-Book
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+12:07.8,AddOrderIncremental,99131196339912729,B,150,154.8,,,,,,,,,,,,,,,,Add Limit BUY order 150@154.8
+12:19.7,AddOrderIncremental,99131196339912730,B,150,154.6,,,,,,,,,,,,,,,,Add Limit BUY order 150@154.6
+12:22.2,AddOrderIncremental,99131196339912731,S,150,155.4,,,,,,,,,,,,,,,,Add Limit SELL order 150@155.4
+12:28.0,AddOrderIncremental,99131196339912732,S,50,155.4,,,,,,,,,,,,,,,,Add Limit SELL order 50@155.4
+12:28.3,AddOrderIncremental,99131196339912733,S,50,155.4,,,,,,,,,,,,,,,,Add Limit SELL order 50@155.4
+12:30.4,AddOrderIncremental,99131196339912734,S,50,155.8,,,,,,,,,,,,,,,,Add Limit SELL order 50@155.8
+12:30.9,AddOrderIncremental,99131196339912735,S,50,156.2,,,,,,,,,,,,,,,,Add Limit SELL order 50@156.2
+12:31.7,AddOrderIncremental,99131196339912736,B,50,154.4,,,,,,,,,,,,,,,,Add Limit BUY order 50@154.4
+12:35.9,AddOrderIncremental,99131196339912737,B,100,154,,,,,,,,,,,,,,,,Add Limit BUY order 100@154
+12:36.3,AddOrderIncremental,99131196339912738,S,100,155.8,,,,,,,,,,,,,,,,Add Limit SELL order 100@155.8
+12:44.1,AddOrderIncremental,99131196339912739,B,25,154.2,,,,,,,,,,,,,,,,Add Limit BUY order 25@154.2
+12:44.4,AddOrderIncremental,99131196339912740,S,25,155.6,,,,,,,,,,,,,,,,Add Limit SELL order 25@155.6
+12:44.9,AddOrderIncremental,99131196339912741,S,25,156,,,,,,,,,,,,,,,,Add Limit SELL order 25@156

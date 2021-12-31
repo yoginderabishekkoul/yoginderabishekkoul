@@ -1,0 +1,24 @@
+TimeStamp,MsgType,OrderID,Side,Size,Price,TradingStatus,Status,FarPrice,TotalExecutedQty,TradeID,TradeType,AuctionType,ExecutedSize,OldPrice,OldSize,StatisticsType,StatisticsPrice,StatisticsSize,CumVolume,Turnover,Message Interpretation,
+42:00.7,AddOrderIncremental,99131196339912757,S,100,60.6,,,,,,,,,,,,,,,,Add Limit SELL order 100@60.6,InstrumentID_72057594037951098
+42:22.9,AddOrderIncremental,99131196339912758,B,100,59.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@59.5,InstrumentID_72057594037951098
+42:46.3,AddOrderIncremental,99131196339912759,B,100,58.5,,,,,,,,,,,,,,,,Add Limit BUY order 100@58.5,InstrumentID_72057594037951098
+42:48.9,AddOrderIncremental,99131196339912760,S,100,63,,,,,,,,,,,,,,,,Add Limit SELL order 100@63,InstrumentID_72057594037951098
+42:54.8,AddOrderIncremental,99131196339912761,B,50,58.5,,,,,,,,,,,,,,,,Add Limit BUY order 50@58.5,InstrumentID_72057594037951098
+42:55.2,AddOrderIncremental,99131196339912762,B,50,57.5,,,,,,,,,,,,,,,,Add Limit BUY order 50@57.5,InstrumentID_72057594037951098
+42:57.5,AddOrderIncremental,99131196339912763,S,50,60.5,,,,,,,,,,,,,,,,Add Limit SELL order 50@60.5,InstrumentID_72057594037951098
+43:03.7,AddOrderIncremental,99131196339912764,S,75,61,,,,,,,,,,,,,,,,Add Limit SELL order 75@61,InstrumentID_72057594037951098
+43:04.0,AddOrderIncremental,99131196339912765,S,75,61.5,,,,,,,,,,,,,,,,Add Limit SELL order 75@61.5,InstrumentID_72057594037951098
+43:07.4,AddOrderIncremental,99131196339912766,B,75,59,,,,,,,,,,,,,,,,Add Limit BUY order 75@59,InstrumentID_72057594037951098
+43:10.2,AddOrderIncremental,99131196339912767,B,75,59.5,,,,,,,,,,,,,,,,Add Limit BUY order 75@59.5,InstrumentID_72057594037951098
+43:16.3,AddOrderIncremental,99131196339912768,S,75,62.5,,,,,,,,,,,,,,,,Add Limit SELL order 75@62.5,InstrumentID_72057594037951098
+43:22.9,AddOrderIncremental,99131196339912769,B,50,57,,,,,,,,,,,,,,,,Add Limit BUY order 50@57,InstrumentID_72057594037951098
+43:24.7,AddOrderIncremental,99131196339912770,B,50,58,,,,,,,,,,,,,,,,Add Limit BUY order 50@58.5,InstrumentID_72057594037951098
+43:27.4,TradeSummary,,S,,,,,60.5,50,,,,,,,,,,,,Trade summary : Trade executed of total Qty 50 @60.5 SELL side,InstrumentID_72057594037951098
+43:27.4,Trade,,,,60.5,,,,,,,,,,,,,,,,Trade summary : Trade executed@60.5,InstrumentID_72057594037951098
+43:27.4,DeleteOrder,99131196339912763,S,,,,,,,,,,,60.5,0,,,,,,Order Deleted@60.5,InstrumentID_72057594037951098
+43:27.4,Statistics,,,,,,,,,,,,,,,,,,50,3025,Statistics update,InstrumentID_72057594037951098
+43:27.4,StatisticsUpdate,,,,,,,,,,,,,,,6,60.5,0,,,Trade High All Trades at statistic price 60.5,InstrumentID_72057594037951098
+43:27.4,StatisticsUpdate,,,,,,,,,,,,,,,4,60.5,0,,,Trade High On-Book at statistic price 60.5,InstrumentID_72057594037951098
+43:27.4,StatisticsUpdate,,,,,,,,,,,,,,,7,60.5,0,,,Trade Low All Trades at statistic price 60.5,InstrumentID_72057594037951098
+43:27.4,StatisticsUpdate,,,,,,,,,,,,,,,5,60.5,0,,,Trade Low On-Book at statistic price 60.5,InstrumentID_72057594037951098
+43:27.4,StatisticsUpdate,,,,,,,,,,,,,,,2,60.5,0,,,Official Opening Price at statistic price 60.5,InstrumentID_72057594037951098
